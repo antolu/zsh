@@ -9,4 +9,3 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
 done
 
 curl https://raw.githubusercontent.com/antolu/zsh/master/.zpreztorc > ~/.zpreztorc
-chsh -s /bin/zsh
